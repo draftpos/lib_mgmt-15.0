@@ -1,0 +1,33 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2023-05-24 15:55:06.847978",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2023-05-24 16:55:27.792692",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Library Membership",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT\n    `tabMembership`.`member_name` as `Member Name:Link/Membership:180`,\n    `tabMembership`.`membership_type` as `Membership Type:Date:150`,\n    `tabMembership`.`membership_status` as `Membership Status:Data:150`,\n    `tabMembership`.`duration_of_membership` as `Duration_of Membership:Data:180`,\n    `tabMembership`.`from_date` as `from_date:Date:120`,\n    `tabMembership`.`to_date` as `To Date:Date:120`\n    FROM    \n        `tabMembership`",
+ "ref_doctype": "Membership",
+ "report_name": "Library Membership",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "Non Profit Manager"
+  },
+  {
+   "role": "Non Profit Member"
+  },
+  {
+   "role": "Librarian"
+  }
+ ]
+}

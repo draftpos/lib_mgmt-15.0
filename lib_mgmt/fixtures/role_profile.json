@@ -1,0 +1,17 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-04-20 11:46:00.764467",
+  "name": "Librarian",
+  "role_profile": "Librarian",
+  "roles": [
+   {
+    "parent": "Librarian",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Librarian"
+   }
+  ]
+ }
+]
