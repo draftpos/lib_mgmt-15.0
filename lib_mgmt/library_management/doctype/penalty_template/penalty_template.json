@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{no_of_day_penalty_from}-{no_of_day_penalty_to}",
+ "creation": "2023-04-06 12:00:02.703078",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "penalty_template_name",
+  "no_of_day_penalty_from",
+  "no_of_day_penalty_to",
+  "penalty_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "penalty_template_name",
+   "fieldtype": "Data",
+   "label": "Penalty Template Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "no_of_day_penalty_from",
+   "fieldtype": "Int",
+   "label": "No of Day Penalty From"
+  },
+  {
+   "fieldname": "no_of_day_penalty_to",
+   "fieldtype": "Int",
+   "label": "No of Day Penalty To"
+  },
+  {
+   "fieldname": "penalty_amount",
+   "fieldtype": "Currency",
+   "label": "Penalty Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-04-19 17:22:28.579695",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Penalty Template",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Librarian",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
